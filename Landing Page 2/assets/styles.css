@@ -1,0 +1,285 @@
+/* body{
+    margin-top: 0;
+} */
+nav{
+    position: fixed;
+    background-color: white;
+    width: 99%;
+    top: 0%;
+    height: 6%;
+}
+.nav_bar{
+    width: device-width;
+    border: solid;
+    height: 10mm;
+    position: fixed;
+}
+.logo{
+    display: inline-block;
+    float: left;
+    margin-right: 15%;
+    margin-left: 3%;
+    padding: 2mm 2mm;
+    font-weight: 600;
+}
+.nav_bar_items{
+    display: inline-block;
+    margin: 0;
+    width: 65%;
+    padding: 2mm 2mm;
+}
+.free_visit{
+    display: inline-block;
+    float: right;
+    text-decoration: underline;
+    width: 20%;
+}
+a{
+    text-decoration: none;
+    margin: 0 2%;
+    color: black;
+}
+.guru{
+    color: rgb(0, 157, 255);
+}
+.background_image_1{
+    width: 99%;
+    background-image: url(img/bck.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+.discover{
+    color: white;
+    display: inline-block;
+    margin-top: 10%;
+    font-size: 350%;
+}
+button{
+    border: none;
+    width: 50mm;
+    margin: 9% 1%;
+    height: 10mm;
+    border-radius: 2mm;
+    color: rgb(0, 157, 255);
+    border: solid;
+}
+button:hover{
+    background-color: burlywood;
+    border: solid;
+}
+.modern_spaces{
+    margin-top: 4%;
+    width: 98.6%;
+    top: 97%;
+    height: 75%;
+}
+.modern_spaces_left{
+    display: inline-block;
+    padding: 2%;
+    height: 70%;
+    font-size: 300%;
+    width: 30%;
+}
+.smaller{
+    font-size: 45%;
+    color: slategray;
+    display: inline-block;
+    margin-top: 4%;
+}
+.modern_spaces_right{
+    float: right;
+    display: inline-block;
+    padding: 2%;
+    height: 90mm;
+    width: 40%;
+}
+.pic_1{
+    display: inline-block;
+    background-image: url(img/Rectangle\ 1.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 60%;
+}
+.pic_2{
+    display: inline-block;
+    background-image: url(img/Rectangle\ 2.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 60%;
+    position: relative;
+    top: -80%;
+    right: -40%;
+}
+.testimonials{
+    height: 70vh;
+    background-color: rgb(8, 141, 224);
+    text-align: center;
+    font-size: 5vh;
+    padding-top: 1vh;
+}
+.test{
+    color:white;
+    margin-top: 3%;
+}
+.teststi{
+    color: white;
+    height: 50vh;
+    width: 20%;
+    display: inline-block;
+    font-size: 5mm;
+    padding: 2vh 2vh;
+    background-color:rgb(67, 179, 249) ;
+    border-radius: 2vh;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    margin: 3vh 2vh;
+    font-size: 3vh;
+}
+.image{
+    background-image: url(img/IMAGE.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 12vh;
+    text-align: center;
+    margin-left: 6vh;
+    margin-bottom: 2vh;
+}
+.lore{
+    border: solid white;
+    background-color: white;
+    color: black;
+    border-radius: 3vh;
+}
+#john{
+    display: block;
+    float: right;
+    width: 50%;
+    padding-top: 3vh;
+    margin-right: 3vh;
+}
+.dream_home{
+    height: 70vh;
+    margin-top: 5vh;
+}
+.dream_home_left{
+    display: inline-block;
+    width: 20%;
+    height: 94%;
+    background-image: url(img/IMAGE\ \(1\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 40vh;
+    margin-top: 4vh;
+}
+.dream_home_right{
+    display: inline-block;
+    width: 40%;
+    height: 99%;
+    float: right;
+    margin-right: 30vh;
+}
+#why{
+    display: block;
+    color: rgb(8, 141, 224);
+    font-family: Arial;
+    font-size: 2vh;
+}
+#Unlock{
+    display: block;
+    font-size: 6vh;
+    width: 65%;
+}
+#slate{
+    margin-top: 4vh;
+    display: block;
+    color: slategray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vh;
+}
+.other_items{
+    display: block;
+    margin-top: 3vh;
+    margin-bottom: -4vh;
+    margin-left: 7vh;
+    font-size: 2.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon{
+    display: inline-block;
+    width: 5%;
+    height: 4vh;
+    margin-top: 4%;
+    margin-bottom: -9%;
+}
+#icon_1{
+    background-image: url(img/chess.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#icon_2{
+    background-image: url(img/cup-of-drink.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#icon_3{
+    background-image: url(img/chess.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foot{
+    background-color: rgb(8, 141, 224);
+    height: 50vh;
+    padding-top: 7vh;
+    padding-left: 15vh;
+    padding-right: 15vh;
+}
+.property{
+    display: inline-block;
+    width: 30%;
+    height: 40vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.company{
+    display: inline-block;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 4vh;
+}
+.resources{
+    display: inline-block;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 4vh;
+}
+.help{
+    display: inline-block;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 4vh;
+}
+ul,li{
+    list-style-type: none;
+    justify-content: left;
+    color: white;
+}
+.white{
+    color: white;
+}
+#head{
+    font-weight: 700;
+    font-size: larger;
+    padding-left: 7vh;
+}
+#head_s{
+    display: block;
+    font-weight: 700;
+    font-size: larger;
+}
